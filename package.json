@@ -1,12 +1,18 @@
 {
-  "name": "nodejs_backend_production",
+  "name": "nodejs_backend_production_template",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9"
+  }
 }
